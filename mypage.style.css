@@ -174,16 +174,19 @@ footer{
 }
 
 @media screen and (min-width:1024px){
-  .profile{
+  .profile-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 764px;
     margin: 0 auto;
   }
+  .profile{
+    margin: 0 auto;
+  }
   .my-profile{
-    margin:0;
-    margin-left: 114px;
+    /* padding-left: 57px; */
     width: 508px;
+    margin: 0;
   }
   .like-list{
     width: 764px;
@@ -191,7 +194,7 @@ footer{
     margin: 0 auto;
   }
   .thumbnail-container{
-    padding: 34px 70px;
+    padding: 30px 50px;
   }
   .thumbnail-box{
     display: grid;
